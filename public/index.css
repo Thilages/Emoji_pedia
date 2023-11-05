@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  
+}
+
+.main-div{
+  background-color: rgb(216, 243, 220);
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-between;
+}
+.head{
+  padding:20px;
+  background-color: rgb(8, 28, 21);
+  border-radius: 20px;
+  margin: 10px 0px;
+  color:rgb(255, 255, 255);
+  font-family: Kanit;
+}
+
+.emoji-card{
+  background-color: rgb(116, 198, 157);
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px black solid;
+  margin: 10px 5px;
+  border-radius: 20px;
+  font-family: Cabin,serif;
+}
+
+.content-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 50px;
+}
+
+.emoji-img{
+  
+  border-radius: 50%;
+  margin: 5px 0px;
+  background-color: rgb(116, 198, 157);
+}
+.emj-detail{
+  margin:10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-head{
+  padding: 20px;
+  background-color: rgb(206, 65, 253);
+}
+
+.card{
+  color: white;
+  width:300px;
+  border: 2px black solid;
+  background-color: rgb(228, 158, 252);
+  border-radius: 30px;
+  overflow: hidden;
+  
+}
+.img-container{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: -50px 0 0 180px;
+}
+
+.card-img{
+  
+  width: 200px;
+  height: auto;
+  
+}
+.card-contact{
+  padding: 10px 20px;
+}
+.card-mail{
+  padding: 0px 20px 20px 20px;
+}
